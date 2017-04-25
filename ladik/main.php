@@ -5,13 +5,11 @@ namespace ladik;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
-use pocketmine\command\Command;
 use pocketmine\Server;
-use pocketmine\command\CommandSender;
 use pocketmine\utils\TextFormat as L;
 use pocketmine\utils\TextFormat;
 use pocketmine\event\player\PlayerJoinEvent;
-use pocketmine\title\Sign;
+
 
 class main extends PluginBase implements Listener{
     
