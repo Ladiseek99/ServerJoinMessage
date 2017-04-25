@@ -26,7 +26,7 @@ class main extends PluginBase implements Listener{
      public function onJoin(PlayerJoinEvent $event){
       	$player = $event->getPlayer();
 		$name = $player->getName();
-     $player->sendPopup("Â§1 Welcome to server Â§4 $name");
+     $player->sendTitle("Â§1 Welcome to server Â§4 $name");
      $player->sendMessage("Â§a---------------------- ");
      $player->sendMessage("Â§e Hello ");
      $player->sendMessage("Â§e Enjoy the game Â§4$name");
